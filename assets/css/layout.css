@@ -3,10 +3,13 @@
 .navbar {
     display: flex;
     justify-content: space-between;
+    background-color: black;
+    padding: 0px 20px;
 }
 
 .navbar a{
     text-decoration: none;
+    color: white;
 }
 
 /* FOOTER */
@@ -20,7 +23,7 @@
 .footer {
   width: 100%;
   background-color: #e7e7e7;
-  padding: 40px 10% 40px;
+  padding: 20px 10% 20px;
 }
 
 .footer a {
@@ -96,7 +99,7 @@
 }
 
 .footer-copyright {
-  margin: 40px 0px;
+  margin: 20px 0px;
   font-size: 12px;
   font-weight: bold;
 }
