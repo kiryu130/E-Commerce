@@ -12,6 +12,11 @@
     color: white;
 }
 
+.navbar-line {
+  color: white;
+  padding: 0px 20px;
+}
+
 /* FOOTER */
 
 .footer-container{
