@@ -18,11 +18,18 @@ body {
   flex-direction: column;
 }
 
+.new-home p,h6{
+  margin: 0px;
+}
+
+.fill{
+  flex: 1;
+}
+
 /* MAIN CONTENT */
 
 .container-fluid {
   flex: 1;
-  background-color: black;
 }
 
 .container-fluid * {
@@ -38,10 +45,19 @@ body {
 }
 
 .main-content-title {
+
 }
 
 .main-content-description {
+
 }
 
 .main-content-brand {
+  flex: 2;
+}
+
+.main-content-brand-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }

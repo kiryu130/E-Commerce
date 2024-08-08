@@ -2,20 +2,23 @@
 
 .navbar {
   display: flex;
-  justify-content: space-between;
   background-color: black;
-  padding: 0px 20px;
 }
 
 .navbar a {
   text-decoration: none;
-  color: white;
 }
 
 .navbar-line {
   color: white;
   padding: 0px 20px;
 }
+
+/* @media (max-width: 460px) {
+  .search-bar {
+    display: none !important;
+  }
+} */
 
 /* FOOTER */
 
