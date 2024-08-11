@@ -61,3 +61,9 @@ body {
   flex-direction: column;
   justify-content: space-evenly;
 }
+
+/* LOGIN PAGE */
+
+.login-left{
+  background-color: #D2B16E;
+}
