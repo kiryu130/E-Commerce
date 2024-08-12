@@ -18,11 +18,12 @@ body {
   flex-direction: column;
 }
 
-.new-home p,h6{
+.new-home p,
+h6 {
   margin: 0px;
 }
 
-.fill{
+.fill {
   flex: 1;
 }
 
@@ -45,11 +46,9 @@ body {
 }
 
 .main-content-title {
-
 }
 
 .main-content-description {
-
 }
 
 .main-content-brand {
@@ -64,6 +63,6 @@ body {
 
 /* LOGIN PAGE */
 
-.login-left{
-  background-color: #D2B16E;
+.login-left {
+  background-color: #d2b16e;
 }
