@@ -22,134 +22,17 @@
 
 /* FOOTER */
 
-.footer-container {
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-}
-
-.footer {
-  width: 100%;
-  background-color: #e7e7e7;
-  padding: 20px 10% 20px;
-}
-
-.footer a {
+.footer-link a {
   text-decoration: none;
-  color: black;
-}
-
-.footer h1 {
-  margin: 0px;
-  font-size: 56px;
-}
-
-.footer-section {
-  display: flex;
-  justify-content: space-between;
-}
-
-.footer-subscribe {
-  flex: 1;
-  margin-right: 10px;
-  gap: 3rem;
-  border-right: 2px solid;
-}
-
-.footer-subscription {
-  display: flex;
-  margin-right: 3rem;
-  margin-top: 1rem;
-}
-
-.footer-email {
-  width: 60%;
-  padding: 1rem;
-  margin-right: 3rem;
-  border: none;
-  border-radius: 36px;
-  box-sizing: border-box;
-  outline: none;
-}
-
-.footer-subscribe-button {
-  background-color: red;
   color: white;
-  border: none;
-  padding: 0px 2rem;
-  font-size: 16px;
 }
 
-.footer-nav {
-  flex: 1;
-  display: flex;
+.footer-line {
+  border-top: 2px solid black;
 }
 
-.footer-link {
-  display: flex;
-  flex: 1;
-  flex-direction: column;
-  justify-content: space-between;
-  margin-right: 10px;
-  border-right: 2px solid;
-}
-
-.footer-contact {
-  display: flex;
-  flex: 1;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.footer-contact i {
-  font-size: 20px;
-}
-
-.footer-copyright {
-  margin: 20px 0px;
-  font-size: 12px;
-  font-weight: bold;
-}
-
-.footer-copyright hr {
-  border-top: 2.5px solid black;
-}
-
-@media (max-width: 768px) {
-  .footer h1 {
-    font-size: 36px;
-  }
-
-  .footer-subscribe {
-    margin-right: 20px;
-    border-right: 1px solid;
-  }
-
-  .footer-subscription {
-    flex-direction: column;
-  }
-
-  .footer-email {
-    width: 100%;
-    margin: 0 0 1rem 0;
-  }
-
-  .footer-subscribe-button {
-    width: 100%;
-    padding: 1rem;
-  }
-
-  .footer-nav {
-    flex-direction: row;
-  }
-
-  .footer-link {
-    border-right: 1px solid;
-    margin-right: 20px;
-  }
-
-  .footer-contact i {
-    font-size: 28px;
+@media (min-width: 768px) {
+  .border-md-end {
+    border-right: 2px solid;
   }
 }
