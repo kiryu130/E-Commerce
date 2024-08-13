@@ -66,3 +66,15 @@ h6 {
 .login-left {
   background-color: #d2b16e;
 }
+
+/* REGISTER PAGE */
+
+.login-left {
+  background-color: #d2b16e;
+}
+
+.register-page{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
