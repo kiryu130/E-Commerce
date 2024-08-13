@@ -25,7 +25,7 @@
 const basePath = window.location.pathname.includes("/pages/") ? "../" : "";
 
 document.addEventListener("DOMContentLoaded", function () {
-  fetch(`${basePath}pages/nav.html`)
+  fetch(`${basePath}components/nav.html`)
     .then((response) => response.text())
     .then((data) => {
       // Adjust CSS paths
@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", function () {
       document.getElementById("navbar").innerHTML = data;
     });
 
-  fetch(`${basePath}pages/footer.html`)
+  fetch(`${basePath}components/footer.html`)
     .then((response) => response.text())
     .then((data) => {
       // Adjust CSS paths
@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", function () {
       document.getElementById("footer").innerHTML = data;
     });
 
-  fetch(`${basePath}pages/header.html`)
+  fetch(`${basePath}components/header.html`)
     .then((response) => response.text())
     .then((data) => {
       // Adjust CSS paths
