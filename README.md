@@ -21,4 +21,4 @@ This is a dummy e-commerce website project that showcases an online store for se
 
 - **David Jansen** https://github.com/kiryu130
 - **Vincentius Marcen** https://github.com/stickz25
-- **William Ongko**https://github.com/WinterWolvez
+- **William Ongko** https://github.com/WinterWolvez
