@@ -1,54 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
   <head id="header"></head>
-  <body>
-    <section class="container mx-0 px-0">
-      <div class="row g-0 vh-100 vw-100">
-        <div class="col-lg-6 order-lg-1 px-3 px-md-none bg-dark d-flex align-items-center justify-content-center flex-column">
-          <div class="text-center text-white">
-            <!-- <img src="" style="width: 185px" alt="logo" /> -->
-            <i class="fa-solid fa-eye fa-2x"></i>
-            <h4 class="mt-1 mb-5 pb-1 fs-2">Watches</h4>
-          </div>
-          <form class="text-white w-75">
-            <!-- <p>Please login to your account</p> -->
+  <body class="bg-secondary">
+    <section class="login-page">
+      <div class="container h-100">
+        <div class="row d-flex justify-content-center align-items-center h-100 mx-3">
+          <div class="col-12">
+            <div class="card rounded-3 text-white">
+              <div class="row g-0 rounded-3">
+                <div class="col-12 offset-lg-0 col-lg-6 order-lg-1 bg-dark login-right">
+                  <div class="card-body p-3 mx-4 d-flex flex-column justify-content-center login-card">
+                    <div class="text-center login-logo">
+                      <i class="fa-solid fa-eye fa-2x"></i>
+                      <h4 class="mt-1 mb-5 pb-1">Watches</h4>
+                    </div>
 
-            <div data-mdb-input-init class="form-outline mb-4">
-              <label class="form-label" for="form2Example11">Username</label>
-              <input type="email" id="form2Example11" class="form-control" placeholder="Phone number or email address" />
-            </div>
+                    <form>
+                      <div data-mdb-input-init class="form-outline mb-4">
+                        <label class="form-label" for="form2Example11">Username</label>
+                        <input type="email" id="form2Example11" class="form-control" placeholder="Phone number or email address" />
+                      </div>
 
-            <div data-mdb-input-init class="form-outline mb-4">
-              <label class="form-label" for="form2Example22">Password</label>
-              <input type="password" id="form2Example22" class="form-control" />
-            </div>
+                      <div data-mdb-input-init class="form-outline mb-4">
+                        <label class="form-label" for="form2Example22">Password</label>
+                        <input type="password" id="form2Example22" class="form-control" />
+                      </div>
 
-            <div class="text-center pt-1 pb-1">
-              <button data-mdb-button-init data-mdb-ripple-init class="btn btn-primary d-block mb-3 w-100" type="button">Log in</button>
-              <a class="text-primary d-block" href="#!">Forgot password?</a>
-            </div>
+                      <div class="text-center pt-1 mb-3 pb-1">
+                        <button data-mdb-button-init data-mdb-ripple-init class="btn btn-primary btn-block d-block mb-3 w-100" type="button">Sign Up</button>
+                        <span class="text-white">Already Have An Account?</span><a class="text-decoration-none ms-3" href="#!">Sign In</a>
+                      </div>
 
-            <div class="d-flex align-items-center mb-2">
-              <hr class="flex-grow-1" />
-              <span class="mx-2">or</span>
-              <hr class="flex-grow-1" />
-            </div>
+                      <div class="d-flex align-items-center mb-2">
+                        <hr class="flex-grow-1" />
+                        <span class="mx-2">or</span>
+                        <hr class="flex-grow-1" />
+                      </div>
 
-            <div class="d-grid gap-2 mb-4">
-              <button class="btn btn-light d-flex align-items-center justify-content-center"><i class="fab fa-google me-2"></i> Sign in with Google</button>
-              <button class="btn btn-light d-flex align-items-center justify-content-center"><i class="fab fa-apple me-2"></i> Sign in with Apple</button>
+                      <div class="d-grid gap-2 mb-4">
+                        <button class="btn btn-light d-flex align-items-center justify-content-center"><i class="fab fa-google me-2"></i> Sign in with Google</button>
+                        <button class="btn btn-light d-flex align-items-center justify-content-center"><i class="fab fa-apple me-2"></i> Sign in with Apple</button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+                <div class="d-none col-lg-6 d-lg-flex align-items-center login-left">
+                  <div class="text-black px-3 py-4 p-lg-5 mx-lg-4 text-center">
+                    <h4 class="mb-4"><strong>Log In To Your Watches Experience</strong></h4>
+                    <p class="small mb-0">
+                      Sign in to unlock a world of personalized features and stay connected with us. By logging in, you'll gain access to tailored content, exclusive resources, and customized tools designed to enhance your experience. We are dedicated to supporting you every step of the way, ensuring you have everything you need to succeed. If you’re new here, don’t miss out—create an account now to start exploring all the benefits we have to offer and join our growing community.
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
-
-            <div class="d-lg-flex text-center text-xl-start align-items-center justify-content-center pb-4">
-              <p class="mb-2 mb-lg-0 me-lg-2 d-block">Don't have an account?</p>
-              <button type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-outline-primary">Create new</button>
-            </div>
-          </form>
-        </div>
-        <div class="col-lg-6 d-none d-lg-flex align-items-center login-left">
-          <div class="text-black px-3 py-4 p-md-5 mx-md-4">
-            <h4 class="mb-4"><strong>Log In To Your Watches Experience</strong></h4>
-            <p class="small mb-0">Sign in to unlock a world of personalized features and stay connected with us. By logging in, you'll gain access to tailored content, exclusive resources, and customized tools designed to enhance your experience. We are dedicated to supporting you every step of the way, ensuring you have everything you need to succeed. If you’re new here, don’t miss out—create an account now to start exploring all the benefits we have to offer and join our growing community.</p>
           </div>
         </div>
       </div>

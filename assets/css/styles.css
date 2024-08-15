@@ -14,16 +14,84 @@
 
 .login-left {
   background-color: #d2b16e;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.login-right {
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.login-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 992px) {
+  .login-right {
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+  }
+
+  .login-logo i {
+    font-size: 1.5rem;
+  }
+
+  .login-logo h4 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-height: 992px) {
+  .login-card {
+    min-height: 700px;
+  }
 }
 
 /* REGISTER PAGE */
 
-.login-left {
+.register-left {
   background-color: #d2b16e;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
 }
 
-.register-page{
+.register-right {
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.register-page {
   min-height: 100vh;
   display: flex;
   align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 992px) {
+  .register-right {
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+  }
+
+  .register-logo i {
+    font-size: 1.5rem;
+  }
+
+  .register-logo h4 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-height: 992px) {
+  .register-card {
+    min-height: 700px;
+  }
 }
