@@ -107,3 +107,7 @@
 .about-section {
   margin-bottom: 8rem;
 }
+
+.about-section-description p{
+  text-align: justify;
+}
