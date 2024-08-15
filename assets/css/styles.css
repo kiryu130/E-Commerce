@@ -95,3 +95,15 @@
     min-height: 700px;
   }
 }
+
+/* ABOUT PAGE*/
+
+.about-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.about-section {
+  margin-bottom: 8rem;
+}
