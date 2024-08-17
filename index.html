@@ -4,49 +4,97 @@
   </head>
   <body>
     <header id="navbar" class="navbar-container mt-2"></header>
-    <main class="container-fluid">
-      <div class="container-hero text-center">
-        <h2 class="fs-2">New Release</h2>
-        <h1 class="fs-1 golden-compass">Golden Compass</h1>
-        <div class="row mt-5">
-            <div class="col-md-10 offset-md-1 col-12 justify-content-center">
-                <img src="assets/images/Untitled.png" alt="Golden Compass" class="img-fluid"></img>
-            </div>
-        </div>
-        <div class="row main-content">
-          <div class="col-md-4 offset-md-2">
-            <img src="assets/images/Sturling.png" alt="White Compass" class="img-fluid w-50"></img>
+    <main class="container text-white d-flex flex-column align-items-center justify-content-center">
+
+      <section class="home-hero text-center">
+        <h3>New Release</h3>
+        <h1 class="home-text">Golden Compass</h1>
+        <img src="assets/images/Home-hero.jpg" alt="Home-hero" class="home-hero">
+      </section>
+
+      <section class="home-featured">
+        <div class="row">
+          <div class="col-12 col-md-4 offset-md-2">
+            <img src="assets/images/Home-Featured.png" alt="Home-section" class="home-image">
           </div>
-          <div class="col-md-4 text-start d-flex flex-column">
-            <div class="row main-content-title flex-shrink-0">
-              <div class="col-12">
+          <div class="col-md-4 text-start d-flex flex-column justify-content-center">
+            <div class="row">
+              <div class="col-12 mb-3">
                 <h1>Last A Lifetime</h1>
               </div>
             </div>
-            <div class="row main-content-description flex-shrink-0">
-              <div class="col-12">
-                <p class="justify-text">A pocket watch is a classic masterpiece made from high quality material that could last a lifetime. Pocket watches are often characterized by their intricate craftsmanship, which may include ornate designs, engravings, or precious materials.</p>
+            <div class="row">
+              <div class="col-12 mb-3">
+                <p class="home-text-justify">A pocket watch is a classic masterpiece made from high quality material that could last a lifetime. Pocket watches are often characterized by their intricate craftsmanship, which may include ornate designs, engravings, or precious materials.</p>
               </div>
             </div>
-            <div class="row main-content-brand flex-grow-1">
+            <div class="row ">
               <div class="col-12">
                 <div class="row">
-                  <div class="col-6 new-home main-content-brand-description">
+                  <div class="col-6">
                     <p>Made Of</p>
-                    <h6>White Crystal</h6>
+                    <h6 class="home-text my-3">White Crystal</h6>
                     <p>From Papua</p>
                   </div>
-                  <div class="col-6 new-home main-content-brand-description">
+                  <div class="col-6">
                     <p>Manufactured By</p>
-                    <h6>Brand</h6>
+                    <h6 class="home-text my-3">Watches</h6>
                     <p>For The Best</p>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
         </div>
-    </div>
+      </section>
+
+      <section class="container py-5">
+        <h2 class="text-center mb-lg-5">Power Features</h2>
+        <div class="row">
+            <div class="col-lg-4 order-1 order-lg-0 d-flex flex-column justify-content-between flex-grow-1">
+
+                <div class="mb-lg-5">
+                  <div class="d-flex align-items-center">
+                    <i class="fa-regular fa-moon fa-lg me-2"></i>
+                    <h3 class="">Moon Phase</h3>
+                  </div>
+                    <p class="home-text-justify">Displays the current phase of the moon as it progresses through its cycle, from new moon to full moon and back. This feature adds a poetic touch to a timepiece, connecting the wearer with the rhythms of the night sky.</p>
+                </div>
+
+                <div>
+                  <div class="d-flex align-items-center">
+                    <i class="fa-regular fa-calendar fa-lg me-2"></i>
+                    <h3 class="">Date Indicator</h3>
+                  </div>
+                    <p class="home-text-justify">Date indicators can be simple or more complex, incorporating features like day of the week and month. Many watches also include mechanisms to adjust the date, often via a crown or a separate button. This feature is especially useful for keeping track of dates without needing a separate calendar.</p>
+                </div>
+
+            </div>
+
+            <div class="col-md-4 d-flex align-items-center justify-content-center flex-grow-1 mb-5">
+                <img src="../assets/images/Home-main.jpg" alt="Main-Content" class="home-main-image">
+            </div>
+
+            <div class="col-lg-4 d-flex flex-column justify-content-between flex-grow-1">
+
+                <div class="mb-lg-5">
+                  <div class="d-flex align-items-center">
+                    <i class="fa-regular fa-clock fa-lg me-2"></i>
+                    <h3 class="">Second Hand</h3>
+                  </div>
+                    <p class="home-text-justify">The second hand is the thin, usually slender hand on a watch or clock that moves continuously around the dial to indicate seconds. It completes one full revolution every 60 seconds, making a sweeping or ticking motion depending on the mechanism of the watch.</p>
+                </div>
+
+                <div>
+                  <div class="d-flex align-items-center">
+                    <i class="fa-regular fa-compass fa-lg me-2"></i>
+                    <h3 class="">Intricate Design</h3>
+                  </div>
+                    <p class="home-text-justify">Intricate design refers to a highly detailed and complex pattern or decoration that showcases fine craftsmanship and meticulous attention to detail. Such designs often feature elaborate motifs, delicate filigree work, or ornate embellishments, making them visually captivating and sophisticated.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
     </main>
     <footer id="footer" class="footer-container"></footer>
     <script src="assets/script/layout.js"></script>
