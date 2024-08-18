@@ -1,8 +1,4 @@
-/* MAIN CONTENT */
-
-.home-featured p,h6,h3{
-  margin: 0px;
-}
+/* HOME PAGE */
 
 .home-text {
   color: #d2b16e;
@@ -11,6 +7,8 @@
 .home-text-justify {
   text-align: justify;
 }
+
+/* HOME IMAGE */
 
 .home-hero {
   width: 75%;
@@ -24,37 +22,39 @@
   object-fit: contain;
 }
 
-@media (max-width: 768px){
-  .home-main-image {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-  }
+.home-main-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
-@media (max-width: 992px){
+@media (max-width: 992px) and (min-width: 769px) {
   .home-main-image {
     width: 75%;
     height: 75%;
-    object-fit: contain;
   }
 }
 
-@media (min-width: 993px){
-  .home-main-image {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-  }
+/* HOME HERO */
+/* HOME FEATURED */
+
+.home-featured p,h6,h3{
+  margin: 0px;
 }
+
+/* HOME MAIN */
+/* HOME COLLECTION */
+
+.home-collection a{
+  display: block;
+}
+
+/* HOME PREORDER */
 
 .home-preorder {
   display: inline-block;
-  position: relative; /* Allows the pseudo-element to be positioned within the div */
+  position: relative;
   padding: 50px 20px;
-  text-align: center;
-  max-width: 100%;
-  color: white; /* Ensures the text is visible */
 }
 
 .home-preorder::before {
@@ -68,12 +68,10 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  opacity: 0.25; /* Adjust the opacity value as needed */
-  z-index: -1; /* Ensures the pseudo-element is behind the text */
-  border-radius: inherit; /* Ensures the pseudo-element inherits border-radius if used */
+  opacity: 0.25;
+  z-index: -1;
+  border-radius: inherit;
 }
-
-
 
 .home-preorder-button {
   background-color: #d2b16e;
